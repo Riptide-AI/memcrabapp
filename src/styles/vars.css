@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --font-primary: 'Inter', sans-serif;
+  
+  --color-bg: #111319; 
+  --color-bg-secondary: #181b22; 
+  --color-bg-tertiary: #21242b; 
+
+  --color-text: #e0e0e0; 
+  --color-text-secondary: #b0b0b0;
+  --color-text-muted: #888888; 
+  --color-text-dark: #2a2d36; 
+
+  --color-primary: #8c61ff; 
+  --color-primary-hover: #7a52e0;
+  --color-secondary: #03dac6; 
+  --color-secondary-hover: #00bfa5; 
+
+  --color-grey-dark: #333a4d;
+  --color-grey-dark-hover: #4c556b;
+  --color-danger: #ff4c4c;
+
+  --color-border: #2a2d36; 
+  --color-border-hover: rgb(58, 62, 72); 
+
+
+  --color-button-bg: var(--color-primary);
+  --color-button-text: #ffffff;
+  --color-button-hover: var(--color-primary-hover);
+
+}

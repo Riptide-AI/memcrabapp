@@ -1,0 +1,19 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 100px;
+  &__message{
+    color: var(--color-text);
+    margin: 100px auto 0;
+  }
+  &__inputs{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  &__generate_btn{
+    width: fit-content;
+    margin: 0 auto;
+  }
+}

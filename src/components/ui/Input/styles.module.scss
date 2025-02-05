@@ -1,0 +1,27 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--color-text);
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input {
+  border: 1px solid  var(--color-border);
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--color-primary);
+  box-shadow: 0 0 4px rgba(140, 97, 255,0.5);
+}

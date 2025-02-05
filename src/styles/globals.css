@@ -1,0 +1,30 @@
+@import "./vars.css";
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-primary);
+  scrollbar-gutter: stable both-edges;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-grey-dark);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-grey-dark-hover);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
